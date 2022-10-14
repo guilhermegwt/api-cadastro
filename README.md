@@ -10,10 +10,10 @@
 
 ### Ubuntu, Mint e derivados
 
-  .  git clone https://github.com/guilhermegwt/api-cadastro.git  
-  .  cd api-cadastro/  
-  .  chmod +x install.sh  
-  .  ./install.sh  
+- git clone https://github.com/guilhermegwt/api-cadastro.git  
+- cd api-cadastro/  
+- chmod +x install.sh  
+- ./install.sh  
 
 ### Windows
 
