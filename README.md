@@ -5,7 +5,8 @@
   Python 3.10 ou superior  
   python3-pip  
   python3-virtualenv  
-
+  git  
+  
 ### Instalação
 
 ### Ubuntu, Mint e derivados
