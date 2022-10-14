@@ -2,9 +2,9 @@
 
 # Requisitos
 
-  Python 3.10 ou superior
-  python3-pip
-  python3-virtualenv
+  Python 3.10 ou superior  
+  python3-pip  
+  python3-virtualenv  
 
 # Instalação
 
