@@ -1,5 +1,3 @@
-# pylint: disable=C0114
-
 from rest_framework import serializers
 from cadastro.models import Cadastro
 

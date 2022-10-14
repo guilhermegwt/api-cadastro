@@ -1,5 +1,3 @@
-# pylint: disable=C0103, C0114
-
 """
 Arquivos do rotas/urls da API
 """
