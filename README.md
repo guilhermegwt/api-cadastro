@@ -1,22 +1,21 @@
-# api-cadastro
-
-API de Cadastro de Usuário
+# API de Cadastro de Usuário
 
 # Requisitos
-. Python 3.10 ou superior
-. python3-pip
-. python3-virtualenv
+
+  Python 3.10 ou superior
+  python3-pip
+  python3-virtualenv
 
 # Instalação
 
-Ubuntu, Mint e derivados
+# Ubuntu, Mint e derivados
 
   git clone https://github.com/guilhermegwt/api-cadastro.git
   cd api-cadastro/
   chmod +x install.sh
   ./install.sh
 
-Windows
+# Windows
 
   Acessar o diretório api-cadastro
   Configurar um ambiente virtual com Virtualenv
