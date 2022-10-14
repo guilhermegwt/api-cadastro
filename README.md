@@ -21,15 +21,15 @@
 .  Configurar um ambiente virtual com Virtualenv  
 .  Ativar ambiente virtual  
 .  Instalar os seguintes pacotes utilizando o pip:  
-    django  
-    djangorestframework 3.14.0  
-    djangorestframework-csv 2.1.1  
-    drf-excel 2.2.0  
+----- django  
+----- djangorestframework 3.14.0  
+----- djangorestframework-csv 2.1.1  
+----- drf-excel 2.2.0  
 .  Iniciar e executar as configurações do Banco de Dados utilizando os seguintes comandos:  
-    python manage.py makemigrations cadastro  
-    python manage.py migrate  
+----- python manage.py makemigrations cadastro  
+----- python manage.py migrate  
 .  Executar o API com o seguinte comando (O serviço será executado na porta 8000):  
-    python manage.py runserver  
+----- python manage.py runserver  
 .  Acessar a API no pela url: http://localhost:8000/api/v1/cadastros  
   
 
