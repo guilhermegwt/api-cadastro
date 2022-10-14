@@ -1,9 +1,9 @@
 from rest_framework.routers import DefaultRouter
-from cadastro.views import CadastroViewSet
+import cadastro.views
 
 app_name = 'cadastro'
 
 router = DefaultRouter(trailing_slash=False)
-router.register(r'cadastros', CadastroViewSet)
+router.register(r'cadastros', cadastro.views.CadastroViewSet)
 
 urlpatterns = router.urls
