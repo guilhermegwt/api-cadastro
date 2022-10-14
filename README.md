@@ -2,12 +2,12 @@
 
 API de Cadastro de Usuário
 
-Requisitos
+# Requisitos
 . Python 3.10 ou superior
 . python3-pip
 . python3-virtualenv
 
-Instalação
+# Instalação
 
 Ubuntu, Mint e derivados
 
