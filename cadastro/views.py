@@ -1,10 +1,10 @@
 from rest_framework import viewsets
-from cadastro.models import Cadastro
-from cadastro.serializers import CadastroSerializer
+from cadastro.models import Usuario
+from cadastro.serializers import UsuarioSerializer
 
-class CadastroViewSet(viewsets.ModelViewSet):
+class UsuarioViewSet(viewsets.ModelViewSet):
     """
     View utilizada para processar das requisições dos usuários
     """
-    queryset = Cadastro.objects.all()
-    serializer_class = CadastroSerializer
+    queryset = Usuario.objects.all()
+    serializer_class = UsuarioSerializer

@@ -8,6 +8,6 @@ import cadastro.views
 app_name = 'cadastro'
 
 router = DefaultRouter(trailing_slash=False)
-router.register(r'cadastros', cadastro.views.CadastroViewSet)
+router.register(r'usuarios', cadastro.views.UsuarioViewSet)
 
 urlpatterns = router.urls

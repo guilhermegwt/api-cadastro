@@ -1,7 +1,7 @@
 from rest_framework import serializers
-from cadastro.models import Cadastro
+from cadastro.views import Usuario
 
-class CadastroSerializer(serializers.ModelSerializer):
+class UsuarioSerializer(serializers.ModelSerializer):
     """
     Serializer utilizado transformar dados em um formato que pode ser armazenado ou transmitido e,
     então, reconstruído
@@ -10,5 +10,5 @@ class CadastroSerializer(serializers.ModelSerializer):
         """
         Modelo e campos do Serializer
         """
-        model = Cadastro
+        model = Usuario
         fields = '__all__'
