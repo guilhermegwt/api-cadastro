@@ -48,7 +48,7 @@ O serviço será executado na porta 8000, verifique se não há outro serviço e
 
 - GET / url: http://localhost:8000/api/v1/usuarios.csv -> Irá retornar um arquivo em formato CSV com os usuários cadastrados   
 
-- POST / url: http://localhost:8000/api/v1/usuarios -> Preenchendo os campos login, senha e data_nascimento ou enviando {"login": "usuario123", "senha": "usuario12345", "dt_nascimento": "1900-01-01"} irá gravar os dados no Banco de Dados. OBS.: O campo senha não é obrigatório, se não for preenchido, irá gerar automaticamente uma senha de 12 caracteres  
+- POST / url: http://localhost:8000/api/v1/usuarios -> Preenchendo os campos login, senha e data_nascimento ou enviando {"login": "usuario123", "senha": "usuario12345", "data_nascimento": "1900-01-01"} irá gravar os dados no Banco de Dados. OBS.: O campo senha não é obrigatório, se não for preenchido, irá gerar automaticamente uma senha de 12 caracteres  
 
 - PUT / url: http://localhost:8000/api/v1/usuarios/{id} -> Informando o **ID** de um usuário cadastrado, você pode atualizar o registro informando novos dados  
 
