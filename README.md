@@ -16,6 +16,8 @@
 - chmod +x install.sh  
 - ./install.sh  
 
+O serviço será executado automaticamente na porta 8000 (verifique se não há outro serviço em execução utilizando essa porta)  
+
 ### Windows
 
 - Acessar o diretório api-cadastro  
