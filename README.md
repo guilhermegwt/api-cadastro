@@ -17,7 +17,7 @@
 - ./install.sh  
 - Acessar a API no pela url: http://localhost:8000/api/v1/usuarios  
 
-O serviço será executado automaticamente na porta 8000 (verifique se não há outro serviço em execução utilizando essa porta)  
+O serviço será executado automaticamente na porta 8000, verifique se não há outro serviço em execução utilizando essa porta  
 
 ### Windows
 
