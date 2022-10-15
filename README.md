@@ -50,7 +50,7 @@ O serviço será executado automaticamente na porta 8000, verifique se não há 
 - Executar as configurações do Banco de Dados utilizando os seguintes comandos:  
   - python manage.py makemigrations cadastro  
   - python manage.py migrate  
-- Executar o API com o comando:  
+- Executar a API com o comando:  
   - python manage.py runserver  
 - Acessar a API no pela url: http://localhost:8000/api/v1/usuarios  
 
