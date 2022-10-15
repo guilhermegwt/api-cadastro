@@ -10,6 +10,7 @@
 ## Instalação
 
 ### Ubuntu, Mint e derivados
+OBS.: Recomendado utilizar versões mais recentes desses sistemas  
 
 Instalação manual via terminal:
 
