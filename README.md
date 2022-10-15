@@ -26,9 +26,9 @@ O serviço será executado automaticamente na porta 8000 (verifique se não há 
 - Ativar ambiente virtual  
 - Instalar os seguintes pacotes utilizando o pip:  
   - django  
-  - djangorestframework 3.14.0  
-  - djangorestframework-csv 2.1.1  
-  - drf-excel 2.2.0  
+  - djangorestframework  
+  - djangorestframework-csv  
+  - drf-excel  
 - Iniciar e executar as configurações do Banco de Dados utilizando os seguintes comandos:  
   - python manage.py makemigrations cadastro  
   - python manage.py migrate  
