@@ -37,7 +37,9 @@ O serviço será executado automaticamente na porta 8000 (verifique se não há 
 
 ## Fazendo Requisições com a API
 
-- GET / url: http://localhost:8000/api/v1/cadastros ou http://localhost:8000/api/v1/cadastros.json -> Irá retornar uma lista em formato JSON com os usuários cadastrados  
+- GET / url: http://localhost:8000/api/v1/cadastros -> Acessa a API e retornar uma lista de usuários cadastrados  
+
+- GET / url: http://localhost:8000/api/v1/cadastros.json -> Irá retornar uma lista em formato JSON com os usuários cadastrados  
 
 - GET / url: http://localhost:8000/api/v1/cadastros.xlsx -> Irá retornar um arquivo em formato XLSX com os usuários cadastrados  
 
