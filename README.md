@@ -29,7 +29,7 @@ O serviço será executado automaticamente na porta 8000 (verifique se não há 
   - djangorestframework  
   - djangorestframework-csv  
   - drf-excel  
-- Iniciar e executar as configurações do Banco de Dados utilizando os seguintes comandos:  
+- Executar as configurações do Banco de Dados utilizando os seguintes comandos:  
   - python manage.py makemigrations cadastro  
   - python manage.py migrate  
 - Executar o API com o comando:  
@@ -50,7 +50,7 @@ O serviço será executado na porta 8000, verifique se não há outro serviço e
 
 - POST / url: http://localhost:8000/api/v1/usuarios -> Preenchendo os campos login, senha e data_nascimento ou enviando {"login": "usuario123", "senha": "usuario12345", "data_nascimento": "1900-01-01"} irá gravar os dados no Banco de Dados. OBS.: O campo senha não é obrigatório, se não for preenchido, irá gerar automaticamente uma senha de 12 caracteres  
 
-- PUT / url: http://localhost:8000/api/v1/usuarios/{id} -> Informando o **ID** de um usuário cadastrado, você pode atualizar o registro informando novos dados  
+- PUT / url: http://localhost:8000/api/v1/usuarios/{id} -> Utilizando o método PUT e informando o **ID** de um usuário cadastrado, você pode atualizar o registro informando novos dados  
 
-- DELETE / url: http://localhost:8000/api/v1/usuarios/{id} -> Informando o **ID** de um usuário cadastrado, você efetuará a exclusão desse registro  
+- DELETE / url: http://localhost:8000/api/v1/usuarios/{id} -> Utilizando o método DELETE e informando o **ID** de um usuário cadastrado, você efetuará a exclusão desse registro  
 
