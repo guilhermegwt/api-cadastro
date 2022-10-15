@@ -40,7 +40,7 @@ O serviço será executado na porta 8000, verifique se não há outro serviço e
 
 ## Fazendo Requisições com a API
 
-- GET / url: http://localhost:8000/api/v1/usuarios -> Acessa a API e retornar uma lista de usuários cadastrados  
+- GET / url: http://localhost:8000/api/v1/usuarios -> Acessa a API e retorna uma lista de usuários cadastrados  
 
 - GET / url: http://localhost:8000/api/v1/usuarios.json -> Irá retornar uma lista em formato JSON com os usuários cadastrados  
 
