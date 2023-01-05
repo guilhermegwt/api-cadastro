@@ -53,7 +53,7 @@ O serviço será executado automaticamente na porta 8000, verifique se não há 
   - python manage.py migrate  
 - Executar a API com o comando:  
   - python manage.py runserver  
-- Acessar a API no pela url: http://localhost:8000/api/v1/usuarios  
+- Acessar a API pela url: http://localhost:8000/api/v1/usuarios  
 
 O serviço será executado na porta 8000, verifique se não há outro serviço em execução utilizando essa porta  
 
